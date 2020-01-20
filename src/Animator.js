@@ -97,10 +97,11 @@ const styles = {
     }
   },
   shadow: shadow => {
-    return shadow == true && {
-      shadowColor: '#CECDCD',
-      shadowRadius: 3,
-      shadowOpacity: 5,
+    return shadow == true && { 
+      shadowOffset: { width: 0, height: -5 },
+      shadowOpacity: 0.1,
+      shadowRadius: 10,
+      elevation: 1,
     }
   },
 }
